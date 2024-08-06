@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+#videolayout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0,4);
+}
+section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+.cityText{
+    font-size: 5em;
+}
+.cityText p{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.cityText button{
+    width: 200px;
+    height: 70px;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-color: red;
+}
+.cityText button:hover{
+    background-color: black;
+    color: white;
+}
